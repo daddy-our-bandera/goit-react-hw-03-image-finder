@@ -19,7 +19,7 @@ class ImageGalleryItem extends Component {
     return (
       <>
         <img
-          className={css.ImageGalleryItemImage}
+          className={css.ImageGalleryItem}
           src={webformatURL}
           alt={tags}
           onClick={this.toggleModal}
